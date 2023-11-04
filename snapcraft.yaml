@@ -50,6 +50,7 @@ parts:
 
   app-2:
     source: https://github.com/sukso96100/versioning-example-app-2/archive/refs/tags/0.1.0.tar.gz
+    source-type: tar
     plugin: make
 
   app-3:
