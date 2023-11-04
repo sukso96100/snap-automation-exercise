@@ -39,7 +39,7 @@ apps:
 
 parts:
   app-1:
-    source: https://github.com/tillkamppeter/versioning-example-app-1
+    source: https://github.com/sukso96100/versioning-example-app-1
     source-type: git
     plugin: make
     override-pull: |
@@ -47,11 +47,11 @@ parts:
       craftctl set version=$(git describe --tags --abbrev=10)
 
   app-2:
-    source: https://github.com/tillkamppeter/versioning-example-app-2/archive/refs/tags/0.1.0.tar.gz
+    source: https://github.com/sukso96100/versioning-example-app-2/archive/refs/tags/0.1.0.tar.gz
     plugin: make
 
   app-3:
-    source: https://github.com/tillkamppeter/versioning-example-app-3
+    source: https://github.com/sukso96100/versioning-example-app-3
     source-type: git
     plugin: dump
     organize:
