@@ -42,7 +42,7 @@ parts:
     source: https://github.com/sukso96100/versioning-example-app-1
     source-type: git
     plugin: make
-    source-tag: '0.1.4'
+    source-tag: '0.1.0'
     source-depth: 1
     override-pull: |
       craftctl default
