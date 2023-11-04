@@ -42,6 +42,8 @@ parts:
     source: https://github.com/sukso96100/versioning-example-app-1
     source-type: git
     plugin: make
+    source-tag: '0.1.4'
+    source-depth: 1
     override-pull: |
       craftctl default
       craftctl set version=$(git describe --tags --abbrev=10)
